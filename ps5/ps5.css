@@ -279,31 +279,20 @@
     width: 850px;
     background: url(touchpad2.png);
     background-repeat: no-repeat;
-    -webkit-animation: rotation_hue 8.5s infinite linear;
+    -webkit-animation: Breathing 8.5s infinite linear;
 }
 
-.custom .touchpad.pressed::before {
+.custom .touchpad.pressed {
     position: absolute;
     top: 0px;
     left: 0px;
     height: 1080px;
     width: 850px;
-    background: url(touchpad2.png);
+    background: url(touchpad3.png), url(touchpad2.png);
     background-repeat: no-repeat;
 }
 
-.custom .touchpad.pressed::after {
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    height: 1080px;
-    width: 850px;
-    background: url(touchpad3.png);
-    background-repeat: no-repeat;
-    -webkit-animation: none;
-}
-
-@-webkit-keyframes rotation_hue {
+@-webkit-keyframes Breathing {
     0%,
     100% {
 	/*filter: saturate(1);*/
