@@ -290,7 +290,6 @@
     width: 850px;
     background: url(touchpad2.png), url(touchpad3.png);
     background-repeat: no-repeat;
-    -webkit-animation: none;
 }
 
 @keyframes rotation_hue {
