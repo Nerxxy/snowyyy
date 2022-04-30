@@ -1,5 +1,5 @@
 .controller.custom{
-	background: url('name.png'), url('base.png');
+	background: url('name3.png'), url('base.png');
 	height:850px;
 	width: 1050px;
 	position: absolute;
@@ -11,7 +11,7 @@
 }
 
 .custom.disconnected {
-    background: url('name.png'), url('disconnected.png');
+    background: url('name3.png'), url('disconnected.png');
 	height:850px;
 	width: 1050px;
 	position: absolute;
