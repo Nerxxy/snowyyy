@@ -282,14 +282,25 @@
     -webkit-animation: rotation_hue 8.5s infinite linear;
 }
 
-.custom .touchpad.pressed {
+.custom .touchpad.pressed::before {
     position: absolute;
     top: 0px;
     left: 0px;
     height: 1080px;
     width: 850px;
-    background: url(touchpad2.png), url(touchpad3.png);
+    background: url(touchpad2.png);
     background-repeat: no-repeat;
+}
+
+.custom .touchpad.pressed::after {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    width: 850px;
+    background: url(touchpad3.png);
+    background-repeat: no-repeat;
+    -webkit-animation: none;
 }
 
 @-webkit-keyframes rotation_hue {
