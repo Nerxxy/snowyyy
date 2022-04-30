@@ -284,11 +284,11 @@
 
 .custom .touchpad.pressed {
     position: absolute;
-    top: 186px;
-    left: 330px;
-    height: 213px;
-    width: 391px;
-    background: url(touchpad3.png);
+    top: 0px;
+    left: 0px;
+    height: 1080px;
+    width: 850px;
+    background: url(touchpad2.png), url(touchpad3.png);
     background-repeat: no-repeat;
     -webkit-animation: none
 }
@@ -297,15 +297,15 @@
 
     0%,
     100% {
-        filter: saturate(1);
-        filter: brightness(.35);
-        transform: hue-rotate(359deg);
+        filter: saturate(1), saturate();
+        filter: brightness(.35), brightness();
+        transform: hue-rotate(359deg), hue-rotate();
     }
 
     50% {
-        filter: saturate(50%);
-        filter: brightness(1.6);
-        transform: hue-rotate(0deg);
+        filter: saturate(50%), saturate();
+        filter: brightness(1.6), brightness();
+        transform: hue-rotate(0deg), hue-rotate();
     }
 }
 
