@@ -296,15 +296,15 @@
 
     0%,
     100% {
-        filter: saturate(1), saturate();
-        filter: brightness(.35), brightness();
-        transform: hue-rotate(359deg), hue-rotate();
+        filter: saturate(1), saturate(1);
+        filter: brightness(.35), brightness(1);
+        transform: hue-rotate(359deg), hue-rotate(0);
     }
 
     50% {
-        filter: saturate(50%), saturate();
-        filter: brightness(1.6), brightness();
-        transform: hue-rotate(0deg), hue-rotate();
+        filter: saturate(50%), saturate(1);
+        filter: brightness(1.6), brightness(1);
+        transform: hue-rotate(0deg), hue-rotate(0);
     }
 }
 
